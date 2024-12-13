@@ -1,0 +1,191 @@
+
+
+
+<div class="container-fliud bg-black" style="overflow: hidden" id="dis-msg">
+  <div class="row">
+    <div
+      class="col-md-12 py-2 text-white px-md-5 pe-4 text-center fs-sm"
+      style="min-height: 30px"
+    >
+      Sign up and get 20% off to your first order.
+      <a href="#" class="text-white">Sign Up Now</a>
+      <button
+        type="button"
+        onclick="hide()"
+        class="float-end text-decoration-none font2 text-white bg-black border-0 pe-md-5"
+      >
+        <i class="fa-solid fa-x fs-sm"></i>
+      </button>
+    </div>
+  </div>
+</div>
+
+<div
+  class="offcanvas offcanvas-start text-black"
+  style="width: 70%"
+  tabindex="-1"
+  id="offcanvasExample"
+  aria-labelledby="offcanvasExampleLabel"
+>
+  <div class="offcanvas-header">
+    <p class="offcanvas-title font1" id="offcanvasExampleLabel">Shop.Co</p>
+    <button
+      type="button"
+      class=""
+      data-bs-dismiss="offcanvas"
+      aria-label="Close"
+    >
+      <i class="fa-solid fa-x"></i>
+    </button>
+  </div>
+  <hr class="m-0" />
+  <div class="offcanvas-body font3 px-4">
+    <div class="varity-dropdown buttons">
+      <p class="bropdownbtn d-flex justify-content-between font3">
+        Shop <i class="fa-solid fa-angle-right fs-6"></i>
+      </p>
+      <div class="dropdown-contentt d-flex justify-content-start flex-wrap">
+        <ul>
+          <li class="bg-prime">
+            <a href="#" class="ps-2 bg-transparent">link</a>
+          </li>
+          <li class="bg-prime">
+            <a href="#" class="ps-2 bg-transparent">link</a>
+          </li>
+          <li class="bg-prime">
+            <a href="#" class="ps-2 bg-transparent">link</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <a class="nav-link text-black mt-4" href=" #onsale">On Sale</a>
+      <hr />
+    </div>
+    <div>
+      <a class="nav-link text-black" href="#newarival">New Arrivel</a>
+      <hr />
+    </div>
+    <div>
+      <a class="nav-link text-black" href="#brands">Brands</a>
+      <hr />
+    </div>
+  </div>
+</div>
+<div class="header-container home-cont ">
+  <ul class="menu-list fs-md letter-spacei-fluid nvac bgng-0 text-black">
+    <li
+      class="nav-link mb-0 mt-0 d-flex align-items-baseline gap-3 nav-main-log"
+    >
+      <button
+        class="bg-white border-0 d-md-none d-block m-md-0"
+        type="button"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasExample"
+        aria-controls="offcanvasExample"
+      >
+        <i class="fa-solid fa-bars fs-4"></i>
+      </button>
+      <a
+        aria-current="page"
+        class="text-black fs4-xs font1 fw-bold me-3"
+        style="font-size: 30px"
+        href="#"
+        >SHOP.CO</a
+      >
+    </li>
+    <li class="pt-1 nav-link">
+      <div class="dropdown d-none d-md-block">
+        <button class="dropbtn font3" style="font-size: 15px">
+          Shop <i class="fa-solid fa-angle-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+      </div>
+    </li>
+    <li class="nav-link d-none d-md-block letter-spaceing-0 font3 pt-2">
+      <a href="#onsale">On Sale</a>
+    </li>
+    <li class="nav-link d-none d-md-block letter-spaceing-0 font3 pt-2">
+      <a href="#newarival">New Arrivels</a>
+    </li>
+    <li class="nav-link d-none d-md-block font3 letter-spaceing-0 pt-2">
+      <a href="#brands">Brands</a>
+    </li>
+    <li class="search-container font3 nav-link ps-3 position-relative pt-2">
+      <input
+        type="search"
+        placeholder="Search by products "
+        class="rounded-pill border-0 search bg-prime py-1 ps-5 pe-2"
+      />
+      <i class="fa-solid fa-magnifying-glass fs-5"></i>
+    </li>
+    <li class="nav-link"></li>
+    <li
+      class="nav-link d-flex justify-content-start m-0"
+      style="align-items: center"
+    >
+      <div class="dropdown searchicon mt-2">
+        <button
+          class="btn dropdown-toggle"
+          type="button"
+          id="dropdownMenuButton1"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          <i class="fa-solid fa-magnifying-glass p-0 px-2 text-black"></i>
+        </button>
+        <div
+          class="mobile-search dropdown-menu bg-transparent"
+          style="border: 0px solid black"
+          aria-labelledby="dropdownMenuButton1"
+          id="m-search"
+        >
+          <div class="mt-1">
+            <input
+              type="search"
+              placeholder="search by products... "
+              class="rounded-pill bg-white py-1 px-5 box-shadow"
+            />
+            <i
+              class="fa-solid fa-magnifying-glass text-sec"
+              style="position: absolute; left: 20px; top: 20px"
+            ></i>
+          </div>
+        </div>
+      </div>
+      <a href=""
+        ><span class="material-symbols-outlined text-black me-3 pt-3">
+          shopping_cart
+        </span></a
+      >
+      <a href=""
+        ><i
+          class="fa-regular text-black fa-user"
+          style="
+            border: 2px solid black;
+            font-size: 14px;
+            border-radius: 100%;
+            padding: 2px;
+            padding-bottom: 2px;
+          "
+        ></i
+      ></a>
+    </li>
+  </ul>
+  <!-- <div class="col-md-4 nav d-md-flex d-none  ">
+                                                                        <div class="search-container nav-link d-none     mt-1 position-relative ">
+                                                                            <input type="search" placeholder="search by products... "
+                                                                                class="rounded-pill border-0 search py-1 px-5">
+                                                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                                                        </div>
+                                                                    </div> -->
+  <!-- <div class="col-md-2 nav ">
+                                                                        <a href="" class="nav-link"><i class="fa-solid fa-cart-shopping"></i></a>
+                                                                        <a href="" class="nav-link  "><i class="fa-regular fa-user"></i></a>
+                                                                    </div> -->
+  <hr class="text-sec m-0" />
+</div>
